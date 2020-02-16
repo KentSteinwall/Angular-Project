@@ -12,6 +12,7 @@ export class FormComponent implements OnInit {
   Products = [];
   addProductFrom = new FormGroup({
     name:new FormControl('Product',Validators.required),
+    email:new FormControl('email',[Validators.required,Validators.email]),
     prize:new FormControl('',Validators.required)
   }
 
