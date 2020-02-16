@@ -1,0 +1,22 @@
+<mat-card>
+<form [formGroup]="addProductFrom" (ngSubmit)="addProduct()">
+    <mat-form-field appearance="outline">
+        <input matInput placeholder="Product Name"  formControlName="name">
+
+    </mat-form-field><br>
+
+    <mat-form-field appearance="outline">
+        <input matInput placeholder="Prize"  formControlName="prize">
+
+    </mat-form-field><br>
+
+    <button [disabled]="!addProductFrom.valid" mat-button color="primary">Submit</button>
+       
+
+
+
+</form>
+
+
+</mat-card>
+<app-product-card  [product]= "item" *ngFor="let item of Products"></app-product-card>

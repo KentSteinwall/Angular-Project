@@ -1,0 +1,13 @@
+<!--<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>Custom Toolbar</span>
+    </mat-toolbar-row>
+  </mat-toolbar>-->
+
+ <!-- <mat-card *ngFor="let item of products">
+    <h1>product {{item.name}}</h1>
+    <h2>prize {{item.prize}}</h2>
+</mat-card>-->
+
+<app-product-card  [product]= "item" *ngFor="let item of products"></app-product-card>
+

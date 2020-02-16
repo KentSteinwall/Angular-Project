@@ -1,0 +1,9 @@
+[
+    { "name" :"product 1", "prize":1200},
+    { "name" :"product 2", "prize":1100},
+    { "name" :"product 3", "prize":1000},
+    { "name" :"product 4", "prize":900},
+    { "name" :"product 5", "prize":800}
+
+
+  ]
